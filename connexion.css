@@ -1,0 +1,64 @@
+p {
+  margin-top: 0px;
+}
+
+body {
+  background-image:url(img/vache.jpg);
+  font-weight: bold;
+  font-variant: small-caps;
+  
+}
+
+div {
+  margin: 0px auto;
+  width:400px;
+  padding: 10% 0;
+}
+
+div.error {
+  padding: 5% 0;
+  color: red;
+  margin-left: 130px;
+}
+
+fieldset {
+  margin-bottom: 15px;
+  padding: 10px;
+}
+ 
+legend {
+  padding: 0px 3px;
+}
+ 
+label {
+  width: 110px;
+  display: inline-block;
+  vertical-align: top;
+  margin: 6px;
+}
+ 
+em {
+  font-weight: bold;
+  font-style: normal;
+  color: #f00;
+}
+ 
+input:focus {
+  background: #eaeaea;
+}
+ 
+input, textarea {
+  width: 249px;
+}
+  
+input[type=submit] {
+  width: 150px;
+  padding: 5px;
+  margin-left: 35px;
+}
+
+input[type=reset] {
+  width: 150px;
+  padding: 5px;
+  
+}
